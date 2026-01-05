@@ -9,6 +9,13 @@ etl:
   sample: "sample1.csv"
   min_price: 10  # dollars
   max_price: 350  # dollars
+basic_cleaning:
+  input_artifact: sample1.csv:latest
+  output_artifact: clean_sample.csv
+  output_type: clean_sample
+  output_description: Cleaned sample data
+  min_price: 10
+  max_price: 350
 data_check:
   kl_threshold: 0.2
 modeling:
@@ -26,8 +33,8 @@ modeling:
   # NOTE: you can put here any parameter that is accepted by the constructor of
   # RandomForestRegressor. This is a subsample, but more could be added:
   random_forest:
-    n_estimators: 100
-    max_depth: 15
+    n_estimators: 200
+    max_depth: 50
     min_samples_split: 4
     min_samples_leaf: 3
     # Here -1 means all available cores
