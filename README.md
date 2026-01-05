@@ -8,6 +8,7 @@ In this project you will build such a pipeline.
 
 ### Weights and Biases: [KarisaMiner Project](https://wandb.ai/karisaminer-western-governors-university/nyc_airbnb?nw=nwuserkarisaminer)
 
+### Github: [KarisaMiner Github](https://github.com/KarisaMiner/Project-Build-an-ML-Pipeline-Starter)
 
 
 ## Table of contents
