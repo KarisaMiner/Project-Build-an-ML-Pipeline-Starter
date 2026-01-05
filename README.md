@@ -6,7 +6,7 @@ to be retrained with the same cadence, necessitating an end-to-end pipeline that
 
 In this project you will build such a pipeline.
 
-### Weights and Biases: [text](https://wandb.ai/karisaminer-western-governors-university/nyc_airbnb?nw=nwuserkarisaminer)
+### Weights and Biases: [KarisaMiner Project](https://wandb.ai/karisaminer-western-governors-university/nyc_airbnb?nw=nwuserkarisaminer)
 
 
 
